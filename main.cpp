@@ -253,15 +253,15 @@ int main() {
         1000);
 
     vector<size_t> labels(points.size(), 0);
-    GNUPlotClusters2D(points, labels, 1, "/home/egor/CLionProjects/clustering/plot_base");
+    GNUPlotClusters2D(points, labels, 1, "./plot_base");
 
     size_t clustersCount = 3;
 
     labels = ClusterMST(points, EuclidianDistance, clustersCount);
-    GNUPlotClusters2D(points, labels, clustersCount, "/home/egor/CLionProjects/clustering/plot_mst");
+    GNUPlotClusters2D(points, labels, clustersCount, "./plot_mst");
 
     labels = ClusterMinDistToCenter(points, EuclidianDistance, clustersCount);
-    GNUPlotClusters2D(points, labels, clustersCount, "/home/egor/CLionProjects/clustering/plot_mdc");
+    GNUPlotClusters2D(points, labels, clustersCount, "./plot_mdc");
 
 
     return 0;
