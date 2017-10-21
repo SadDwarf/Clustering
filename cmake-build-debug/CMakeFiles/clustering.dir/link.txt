@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/clustering.dir/main.cpp.o  -o clustering 

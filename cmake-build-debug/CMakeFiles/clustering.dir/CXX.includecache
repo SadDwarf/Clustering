@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/egor/CLionProjects/clustering/main.cpp
+algorithm
+-
+iostream
+-
+fstream
+-
+random
+-
+string
+-
+vector
+-
+exception
+-
+climits
+-
+
